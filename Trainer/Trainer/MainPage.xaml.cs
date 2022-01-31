@@ -13,6 +13,8 @@ namespace Trainer
         public MainPage()
         {
             InitializeComponent();
+
+            ImageBooks.Source = ImageSource.FromResource("Trainer.books.png");
         }
 
         private void ButtonStart_Clicked(object sender, EventArgs e)

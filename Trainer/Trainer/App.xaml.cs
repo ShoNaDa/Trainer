@@ -2,6 +2,9 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+[assembly: ExportFont("Ubuntu-BoldItalic.ttf", Alias = "UbuntuBold")]
+[assembly: ExportFont("Ubuntu-LightItalic.ttf", Alias = "UbuntuLight")]
+[assembly: ExportFont("Cairo-Regular.ttf", Alias = "Cairo-Regular")]
 namespace Trainer
 {
     public partial class App : Application
