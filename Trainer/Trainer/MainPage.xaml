@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Trainer.MainPage"
+             Title="Trainer"
+             Background="#FFE4ED">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Тренажёр" FontSize="36" TextColor="#0078C2" HorizontalOptions="Center" FontAttributes="Bold" Padding="0,30,0,0"/>
+            <Label Text="для изучения английских слов" FontSize="25" TextColor="#00488C" HorizontalOptions="Center" Padding="0,0,0,30"/>
+            <Button x:Name="ButtonStart" Text="Начать" Clicked="ButtonStart_Clicked" FontSize="25" HorizontalOptions="Center" BorderColor="Black" Background="#DCDCDC"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
