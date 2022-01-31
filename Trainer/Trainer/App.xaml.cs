@@ -1,6 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 [assembly: ExportFont("Ubuntu-BoldItalic.ttf", Alias = "UbuntuBold")]
 [assembly: ExportFont("Ubuntu-LightItalic.ttf", Alias = "UbuntuLight")]

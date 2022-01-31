@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace Trainer
@@ -14,6 +9,7 @@ namespace Trainer
         {
             InitializeComponent();
 
+            //Из ресурсов достается картинка
             ImageBooks.Source = ImageSource.FromResource("Trainer.books.png");
         }
 
