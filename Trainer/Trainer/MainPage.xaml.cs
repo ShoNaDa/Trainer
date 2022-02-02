@@ -15,7 +15,9 @@ namespace Trainer
 
         private async void ButtonStart_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TrainerPage());
+            var trainerPage = new TrainerPage();
+            //переход на следующую страницу
+            await Navigation.PushAsync(trainerPage);
         }
     }
 }

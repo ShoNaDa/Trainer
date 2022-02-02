@@ -10,7 +10,7 @@
             <Label Margin="10,10,10,0" Background="#FFCCCC" Text="Тренажёр" FontFamily="UbuntuBold" FontSize="40" TextColor="#00488C" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" FontAttributes="Bold" Padding="0,30,0,0"/>
             <Label Margin="10,0,10,10" Background="#FFCCCC" Text="для изучения английских слов" FontFamily="UbuntuLight" FontSize="27" TextColor="#00488C" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" Padding="0,0,0,30"/>
             <Image Margin="0,20,0,0" WidthRequest="250" HeightRequest="250" x:Name="ImageBooks"/>
-            <Button x:Name="ButtonStart" Margin="0,70,0,0" WidthRequest="200" HeightRequest="200" Text="Начать" Clicked="ButtonStart_Clicked" 
+            <Button Margin="0,70,0,0" WidthRequest="200" HeightRequest="200" Text="Начать" Clicked="ButtonStart_Clicked" 
                     CornerRadius="100" FontAttributes="Bold,Italic" FontFamily="Cairo-Regular" FontSize="35" HorizontalOptions="Center" BorderColor="Black" Background="#C7ADB5"/>
         </StackLayout>
     </ContentPage.Content>
