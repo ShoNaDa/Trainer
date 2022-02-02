@@ -7,8 +7,13 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <ListView>
-            </ListView>
+            <Label Margin="10,10,10,0" Background="#FFCCCC" Text="Выберите номер перевода" FontFamily="UbuntuBold" FontSize="25" TextColor="#00488C" 
+                   HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" FontAttributes="Bold" Padding="0,30,0,0"/>
+            <StackLayout Orientation="Horizontal">
+                <ListView x:Name="ListViewEN"/>
+                <ListView x:Name="ListViewRU"/>
+            </StackLayout>
+            <Entry Margin="10,10,10,0" Placeholder="Номер" FontSize="25" TextColor="Black" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
