@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Trainer.TrainerPage">
+             x:Class="Trainer.TrainerPage"
+             Title="Trainer"
+             Background="#FFE4ED">
+    
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="test" Text="Привет"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

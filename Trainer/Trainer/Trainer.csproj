@@ -14,12 +14,14 @@
     <None Remove="books.png" />
     <None Remove="Fonts\Ubuntu-BoldItalic.ttf" />
     <None Remove="Fonts\Ubuntu-LightItalic.ttf" />
+    <None Remove="words.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="books.png" />
     <EmbeddedResource Include="Fonts\Ubuntu-BoldItalic.ttf" />
     <EmbeddedResource Include="Fonts\Ubuntu-LightItalic.ttf" />
+    <EmbeddedResource Include="words.txt" />
   </ItemGroup>
 
   <ItemGroup>

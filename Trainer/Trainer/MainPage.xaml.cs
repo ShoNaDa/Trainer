@@ -13,9 +13,9 @@ namespace Trainer
             ImageBooks.Source = ImageSource.FromResource("Trainer.books.png");
         }
 
-        private void ButtonStart_Clicked(object sender, EventArgs e)
+        private async void ButtonStart_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new TrainerPage());
         }
     }
 }
